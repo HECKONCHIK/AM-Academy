@@ -1,6 +1,7 @@
 @use './variables' as *;
 @use "./header";
-@use "./main/info.scss";
+@use "main/addinfo";
+@use "./main/info.scss"; 
 
 body {
   background-color: $pr-bg;
