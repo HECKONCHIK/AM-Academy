@@ -1,9 +1,9 @@
 @use './variables' as *;
 @use "./header";
+@use "./main/info.scss";
 
 body {
   background-color: $pr-bg;
   color: $pr-text;
   font-family: $pr-font;
-
 }
