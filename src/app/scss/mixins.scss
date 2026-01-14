@@ -1,0 +1,26 @@
+@use 'variables' as *;
+
+@mixin btn-style {
+  background-color: $accent;
+  color: $pr-bg;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  transition: background-color .2s ease, border-color .2s ease, color .2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  outline: 0;
+  overflow: hidden;
+}
+
+@mixin btn-hov-style {
+  background-color: $hover;
+  color: $pr-bg;
+}
+
+@mixin btn-acv-style {
+  background-color: rgba(0, 0, 0, 0.1);
+  transform: translateY(1px);
+}
+
+//@include btn-acv-style
