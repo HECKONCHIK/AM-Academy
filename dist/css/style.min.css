@@ -1,1 +1,1 @@
-body{background-color:#000;color:aqua}
+.main-header{font-family:Inter,sans-serif;padding-left:100px;padding-right:100px}.header-position{justify-content:space-between;height:80px}.header-position,.nav-links{display:flex;align-items:center}.nav-links{gap:90px;margin-top:23px}li{list-style:none}.logo{width:200px;height:auto}

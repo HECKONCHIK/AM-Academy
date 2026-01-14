@@ -1,0 +1,33 @@
+.main-header {
+    font-family: Inter, sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+
+.header-position{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+
+
+.nav-links{
+    display: flex;
+    gap: 90px;
+    align-items: center;
+    margin-top: 23px;
+}
+
+li{
+    list-style: none;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
