@@ -46,10 +46,6 @@
     justify-content: center;
 }
 
-button.nav-item {
-    outline: none;
-}
-
 .nav-item:hover {
     background-color: rgba(0, 0, 0, 0.05);
     border-color: rgba(0, 0, 0, 0.1);
@@ -69,4 +65,7 @@ button.nav-item {
 .btn-signup:hover {
     background-color: #026828;
     color: #fff;
+}
+button.nav-item {
+    outline: none;
 }

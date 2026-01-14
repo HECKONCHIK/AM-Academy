@@ -1,5 +1,6 @@
 @use './variables' as *;
 @use "./header";
+@use "main/addinfo";
 
 body {
   background-color: $pr-bg;

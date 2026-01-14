@@ -1,0 +1,37 @@
+.info-section{
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+
+}
+.titlewhy{
+    display: flex;
+    justify-content: center;
+}
+.list-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid rgb(235, 231, 231);
+    margin-top: 30px;
+    font-size: 20px;
+    white-space: nowrap;
+    border-radius: 4px;
+    padding: 15px;
+    padding-right: 490px ;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.list-qution{
+    display: flex;
+    flex-direction: column;
+    
+    border: 2px solid rgb(235, 231, 231);
+    margin-top: 30px;
+    font-size: 14px;
+    white-space: nowrap;
+    border-radius: 4px;
+    padding: 15px;
+
+}
