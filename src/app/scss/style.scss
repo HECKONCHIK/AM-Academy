@@ -2,7 +2,7 @@
 @use "./header";
 @use "main/addinfo";
 @use "./main/info.scss"; 
-
+@use "./main/courseprogma.scss";
 body {
   background-color: $pr-bg;
   color: $pr-text;
