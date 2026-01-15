@@ -1,31 +1,50 @@
 @use '../mixins.scss' as *;
+@use '../variables.scss' as *;
+
+
+//INFO
+
 
 .container-info {
   display: flex;
+  justify-content: space-between;
 
   margin-left: 100px;
   margin-top: 100px;
 }
 
 .info-text-1 {
-  font-size: 60px;
+  font-size: 80px;
   font-weight: bold;
 }
 
 .info-text-2 {
-  font-size: 20px;
+  font-size: 35px;
 }
 
 .info-text-3 {
-  font-size: 20px;
+  font-size: 35px;
 }
 
 .info-btn {
   @include btn-style;
+  padding: 10px 32px;
   &:hover {
     @include btn-hov-style;
   }
   &:active {
     @include btn-acv-style;
   }
+}
+
+//FOR WHO
+
+.list-for-who {
+  list-style: none;
+  display: flex;
+}
+
+.for-who-item {
+  background-color: $sec-bg;
+  border-radius: 10px;
 }
