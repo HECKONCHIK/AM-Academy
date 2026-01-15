@@ -1,37 +1,59 @@
-.info-section{
+.info-section {
     display: flex;
-    justify-content: flex-start;
+    align-items: flex-start;
+    justify-content: center;
     gap: 50px;
-
 }
-.titlewhy{
+
+.titlewhy {
     display: flex;
     justify-content: center;
 }
-.list-info{
+
+.list-info {
     display: flex;
     flex-direction: column;
-    gap: 20px;
     border: 2px solid rgb(235, 231, 231);
     margin-top: 30px;
     font-size: 20px;
     white-space: nowrap;
     border-radius: 4px;
-    padding: 15px;
-    padding-right: 490px ;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-
+    background: white;
 }
 
-.list-qution{
+.list-info div {
+    padding: 15px;
+    padding-right: 490px;
+    border-bottom: 1px solid rgb(235, 231, 231);
+}
+
+.list-info div:last-child {
+    border-bottom: none;
+}
+
+.list-qution {
     display: flex;
     flex-direction: column;
-    
     border: 2px solid rgb(235, 231, 231);
     margin-top: 30px;
     font-size: 14px;
     white-space: nowrap;
     border-radius: 4px;
-    padding: 15px;
+    background: white;
+}
 
+.list-qution p {
+    margin: 0;
+    padding: 15px;
+    padding-right: 120px;
+    border-bottom: 1px solid rgb(235, 231, 231);
+}
+
+.list-qution p:last-child {
+    border-bottom: none;
+}
+
+.modul {
+    font-size: 20px;
 }
