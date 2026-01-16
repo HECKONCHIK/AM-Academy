@@ -23,4 +23,9 @@
   transform: translateY(1px);
 }
 
+@mixin content-center {
+  display: flex;
+  justify-content: center;
+}
+
 //@include btn-acv-style
