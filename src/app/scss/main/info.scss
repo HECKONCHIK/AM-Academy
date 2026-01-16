@@ -7,23 +7,24 @@
 
 .container-info {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 
-  margin-left: 100px;
+  margin-left: -300px;
   margin-top: 100px;
+
 }
 
 .info-text-1 {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: bold;
 }
 
 .info-text-2 {
-  font-size: 35px;
+  font-size: 25px;
 }
 
 .info-text-3 {
-  font-size: 35px;
+  font-size: 25px;
 }
 
 .info-btn {
@@ -37,14 +38,47 @@
   }
 }
 
+.photo {
+  position: relative;
+  left: 150px;
+}
+
 //FOR WHO
+
+.container-for-who {
+  margin-top: 90px;
+}
+
+.p-for-who {
+  @include content-center;
+
+  font-size: 2em;
+  font-weight: 500;
+
+  margin-top: 10px;
+}
 
 .list-for-who {
   list-style: none;
-  display: flex;
+
+  @include content-center;
+
+  margin-top: 40px;
+  padding: 0;
 }
 
 .for-who-item {
   background-color: $sec-bg;
+
   border-radius: 10px;
+
+  &:not(:last-child) {
+    margin-right: 15px;
+  }
+}
+
+.desc-for-who {
+ @include content-center;
+
+  margin: 0 30px 30px;
 }
