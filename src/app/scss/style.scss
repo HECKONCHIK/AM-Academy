@@ -3,8 +3,13 @@
 @use "main/addinfo";
 @use "./main/info.scss"; 
 @use "./main/courseprogma.scss";
+@use "./main/excel.scss";
+
 body {
   background-color: $pr-bg;
   color: $pr-text;
   font-family: $pr-font;
 }
+container-fluid_{
+    margin-left: 100px;
+  }
