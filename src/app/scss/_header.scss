@@ -8,13 +8,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    height: 60px;
 }
 
 
 .nav-links {
     display: flex;
-    gap: 90px;
+    gap: 60px;
     align-items: center;
     padding: 0;
     margin-top: 23px;
@@ -25,7 +25,7 @@
 }
 
 .logo {
-    width: 200px;
+    width: 150px;
     height: auto;
     display: block;
 }
@@ -37,7 +37,7 @@
     border-radius: 6px;
     border: 1px solid transparent;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 500;
     text-decoration: none;
     font-family: inherit;
