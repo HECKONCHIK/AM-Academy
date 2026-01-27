@@ -4,11 +4,15 @@
 @use "./main/info.scss"; 
 @use "./main/courseprogma.scss";
 @use "./main/excel.scss";
+@use "./main/floor.scss";
 
 body {
   background-color: $pr-bg;
   color: $pr-text;
   font-family: $pr-font;
+  width: 100%;
+  height: auto;
+
 }
 container-fluid_{
     margin-left: 100px;

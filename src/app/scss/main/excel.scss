@@ -1,3 +1,8 @@
+@use '../mixins.scss' as *;
+@use '../variables.scss' as *;
+
+
+
 .excel-titl{
     margin-top: 40px;
 }
@@ -22,3 +27,25 @@
     }
 }
 
+.btn-enroll{
+    @include btn-style;
+    padding: 12px 36px;
+    margin-top: 30px;
+    font-size: 20px;
+    &:hover {
+      @include btn-hov-style;
+    }
+    &:active {
+      @include btn-acv-style;
+    }
+}
+
+.discount{
+    position: absolute;
+    color: #b8bbc0;
+    font-size: 22px;
+    font-weight: bold;
+    z-index: -1;
+    margin-left: 150px;
+    margin-top: 70px;
+}
